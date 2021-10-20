@@ -1,68 +1,66 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Amazon Clone
 
-## Available Scripts
+## React.JS, React Context and firebase
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Screenshots](#screenshot)
+4. [Installation](#installation)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### General Info
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project aims at creating a clone of e-commerce website amazon for practice purpose to understand the react, react context, axios, stripe and material-ui with firebase functionality and the functionality of the Amazon Website.
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+#### Home Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Home Page](public/images/home.PNG)
 
-### `npm run eject`
+#### Login Page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Login Page](public/images/login.PNG)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Cart Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Cart Page](public/images/cart.PNG)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### Checkout Page
 
-## Learn More
+![Checkout Page](public/images/checkout.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+A list of technologies used within the project:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- [React.js](https://reactjs.org/): Version 16.13.1
+- [Material-UI](https://material-ui.com/): Version 4.11
+- [firebase](https://firebase.google.com/): Version 7.21.1
+- [axios](https://axios-http.com/): Version 0.20.0
+- [moment](https://momentjs.com/): Version 2.29.0
+- [react-currency-format](https://github.com/mohitgupta8888/react-currency-format): Version 1.0.0
+- [stripe and react-stripe](https://stripe.com/docs/stripe-js/react): Version 1.1.2 and 1.9.0
+- [react-router-dom](https://reactrouter.com/web/guides/quick-start): Version 5.2.0
 
-### Analyzing the Bundle Size
+## Installation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+---
 
-### Making a Progressive Web App
+A little intro about the installation.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+$ git clone https://github.com/gopeshwark/react-amazon-clone
+$ cd ./react-amazon-clone/
+$ npm install
+$ npm start
+```
