@@ -6,7 +6,8 @@
 .pnp.js
 /src/axios.js
 /src/firebase.js
-
+/~/.zshrc
+/-
 # testing
 /coverage
 

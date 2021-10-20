@@ -23,19 +23,19 @@ This project aims at creating a clone of e-commerce website amazon for practice 
 
 #### Home Page
 
-![Home Page](public/images/home.PNG)
+![Home Page](public/images/home.png)
 
 #### Login Page
 
-![Login Page](public/images/login.PNG)
+![Login Page](public/images/login.png)
 
 #### Cart Page
 
-![Cart Page](public/images/cart.PNG)
+![Cart Page](public/images/cart.png)
 
 #### Checkout Page
 
-![Checkout Page](public/images/checkout.PNG)
+![Checkout Page](public/images/checkout.png)
 
 ## Technologies
 
